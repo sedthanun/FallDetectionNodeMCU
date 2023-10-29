@@ -10,6 +10,9 @@ Video Link **https://youtu.be/6aiGl0tRTpE?si=S3tc-5ynT75Oi2hP**
 
 Poster **https://drive.google.com/file/d/1yYOihL9qki9ENKKzSCFcbL-v-fmvnqra/view?usp=sharing**
 
+![ภาพการทดลอง](https://github.com/sedthanun/FallDetectionNodeMCU/blob/main/docs/img/board1.png)
+![โปสเตอร์](https://github.com/sedthanun/FallDetectionNodeMCU/blob/main/docs/img/Fall_Detection_pos.png)
+
 
 ## ผู้จัดทำ :
 1. 62070212 เสฏฐนันท์ จงเจตน์ดี
