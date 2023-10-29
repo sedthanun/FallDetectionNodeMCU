@@ -9,13 +9,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@800&display=swap" rel="stylesheet">
-    <title>Gas! Notify Me</title>
+    <title>Fall Detection</title>
 <style>
     body{
         font-family: 'Sarabun', sans-serif;
         font-size: 1.2em;
         background: rgb(20,36,138);
-        background: linear-gradient(90deg, rgba(179,233,202,1) 0%, rgba(255,255,255,1) 100%);
+        background: gray;
     }
     h3{
         font-family: 'Sarabun', sans-serif;
@@ -118,7 +118,7 @@ and (-webkit-device-pixel-ratio : 2) {
                            
         <div class="jumbotron jumbotron-fluid p-5 m-0">
             <h1 class="display-4">Fall Dectection with NodeMCU and MPU-6050</h1>
-            <p class="lead">ระบบตรวจจับคนล้มด้วย NodeMCU และ MPU-6050 </p>
+            <p class="lead">ระบบแจ้งเตือนคนล้มด้วย NodeMCU และ MPU-6050 </p>
             <hr class="my-4">
         </div>
     </div>
@@ -129,7 +129,7 @@ and (-webkit-device-pixel-ratio : 2) {
                     <div class="card-body">
                         <div class="videoWrapper">
                             <!-- Copy & Pasted from YouTube -->
-                            <iframe width="560" height="349" src="https://www.youtube.com/embed/eQ1JEEJV4Vc" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="349" src="https://www.youtube.com/embed/6aiGl0tRTpE?si=WlVIYXMKhgUirWg1" frameborder="0" allowfullscreen></iframe>
                           </div>
                     </div>
                 </div>
@@ -161,9 +161,7 @@ and (-webkit-device-pixel-ratio : 2) {
                     <br> 7. สวิตซ์ (Switch) </bt></p>
                         
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12 pt-4">
-                        <img class="img-fluid" src="img/Compro.jpg" alt="">
-                    </div>
+                    
                 </div>
                        </div>
                    </div>
@@ -176,9 +174,7 @@ and (-webkit-device-pixel-ratio : 2) {
                 <div class="card m-4">
                     <div class="card-body">
                         <h3 class="card-title">วิธีการทำงาน</h3>
-                        <p class="card-text">เมื่อเริ่มรันโปรแกรม NodeMCU_LINE.ino ไฟแจ้งเตือนจะเป็นสีเขียว เมื่อเราจุดแก๊ส หรือจุดควันไฟ<br>
-                        เซนเซอร์ MQ-2 จะตรวจจับ และเปลี่ยนไฟแจ้งเตือนเป็นสีแดง จากนั้นออดจะดังขึ้น และโปรแกรมจะต่อ Wi-Fi ผ่าน NodeMCU<br>
-                    เพื่อแจ้งเตือนว่าพบแก๊สและค่าของเซนเซอร์ออกไปที่ Line Notify</p>
+                        <p class="card-text">เมื่ออุปกรณ์เซนเซอร์ตรวจจับพบว่ามีการเคลื่อนไหวที่ผิดปกติหรือล้ม อุปกรณ์จะทำการส่งแจ้งเตือนไปยังแอปพลิเคชั่น Line และยังมีเสียงแจ้งเตือนจากออดและไฟแจ้งเตือนขึ้นที่ตัวของอุปกรณ์ด้วย</p>
                     </div>
                 </div>
             </div>
@@ -240,7 +236,7 @@ and (-webkit-device-pixel-ratio : 2) {
                 <div class="card m-4">
                     <div class="card-body">
                         <h3 class="card-title">ผลการทดลอง</h3>
-                        <p class="card-text">ผลการทดลองการทำงานที่ได้อุปกรณ์ดักจับควันมีการทำงานที่แม่นยำ เมื่อมีควันที่เข้าใกล้จะมีการแจ้งเตือนข้อความปริมานควันไปยังแอปพลิเคชันLine และมีไฟแจ้งเตือนบริเวณบอร์ด มีเสียงออดแจ้งเตือนทุกครั้งที่เกิดขึ้น เพื่อให้เตรียมตัวรับมือกับอัคคีภัยที่อาจจะเกิดขึ้นได้ทันทวงที</p>
+                        <p class="card-text">ผลการศึกษาค้นคว้าพบว่า จากการทดลองใช้อุปกรณ์สำหรับแจ้งเตือนการหกล้ม โดยการทดลองขยับเซนเซอร์ให้เกิดทิศในการล้มไปยังทิศต่างๆ สามารถส่งค่าข้อมูลมายังแอปพลิเคชั่น Line ได้อย่างแม่นยำ และสามารถแสดงผลแจ้งเตือนผ่านไฟแจ้งเตือนและออดได้อย่างถูกต้อง</p>
                     </div>
                 </div>
             </div>
